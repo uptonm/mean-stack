@@ -25,4 +25,10 @@ export class PostService {
   getPostUpdates() {
     return this.postsUpdated.asObservable();
   }
+
+  removePost(post: Post) {
+    this.posts.filter((current: Post) => {
+      return current.title !== post.title;
+    });
+  }
 }

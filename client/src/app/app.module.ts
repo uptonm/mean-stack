@@ -7,7 +7,8 @@ import {
   MatButtonModule,
   MatToolbarModule,
   MatExpansionModule,
-  MatIconModule
+  MatIconModule,
+  MatSnackBarModule
 } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -34,7 +35,8 @@ import { FormsModule } from '@angular/forms';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
-    MatIconModule
+    MatIconModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
