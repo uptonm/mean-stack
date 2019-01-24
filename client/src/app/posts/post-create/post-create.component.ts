@@ -13,9 +13,7 @@ export class PostCreateComponent implements OnInit {
   @Output() postCreated: EventEmitter<Post> = new EventEmitter<Post>();
   constructor(private postService: PostService) {}
 
-  ngOnInit() {
-    console.log();
-  }
+  ngOnInit() {}
 
   onAddPost(form: NgForm) {
     if (form.invalid) {
